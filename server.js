@@ -3,41 +3,6 @@ const server = express();
 
 const db = require("./db");
 
-/*
-const ideas = [
-    {
-        img: "https://image.flaticon.com/icons/svg/2317/2317963.svg",
-        title: "Cursos de Programação",
-        category: "Estudo",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        url: "https://rocketseat.com.br",
-    },
-
-    {
-        img: "https://image.flaticon.com/icons/svg/2728/2728973.svg",
-        title: "Exercícios",
-        category: "Saúde",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        url: "https://rocketseat.com.br",
-    },
-
-    {
-        img: "https://image.flaticon.com/icons/svg/1830/1830774.svg",
-        title: "Meditação",
-        category: "Mentalidade",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        url: "https://rocketseat.com.br",
-    },
-
-    {
-        img: "https://image.flaticon.com/icons/svg/2729/2729032.svg",
-        title: "Karaokê",
-        category: "Diversão em família",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        url: "https://rocketseat.com.br",
-    },
-]
-*/
 // configurar arquivos estáticos (css, scripts, imagens)
 server.use(express.static("public"));
 
